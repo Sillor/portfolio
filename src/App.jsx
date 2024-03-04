@@ -1,14 +1,11 @@
 import React from 'react';
+import pfp from './assets/pfp.jpg';
 
 const App = () => {
   return (
     <div className="min-h-screen bg-gray-900 text-white flex items-center justify-center">
       <div className="max-w-sm rounded overflow-hidden shadow-lg m-4">
-        <img
-          className="w-full"
-          src="https://source.unsplash.com/random"
-          alt="Display"
-        />
+        <img className="w-full" src={pfp} alt="Egor" />
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">Egor Strakhov</div>
           <p className="text-gray-300 text-base">
