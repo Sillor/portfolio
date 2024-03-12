@@ -13,12 +13,15 @@ const App = () => {
             <div className="font-bold text-xl mb-2">Egor Strakhov</div>
             <div className="icons flex items-center">
               <a
-                href="https://www.linkedin.com/in/your-linkedin-id"
-                className="mr-2"
+                href="https://www.linkedin.com/in/egorstrakhov/"
+                className="mr-2 transform transition duration-500 ease-in-out hover:scale-125"
               >
                 <Linkedin size={24} />
               </a>
-              <a href="https://github.com/your-github-id">
+              <a
+                href="https://github.com/Sillor"
+                className="transform transition duration-500 ease-in-out hover:scale-125"
+              >
                 <Github size={24} />
               </a>
             </div>
