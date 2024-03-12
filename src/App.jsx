@@ -6,7 +6,7 @@ import { Github } from 'lucide-react';
 const App = () => {
   return (
     <div className="min-h-screen bg-gray-900 text-white flex items-center justify-center">
-      <div className="max-w-sm rounded overflow-hidden shadow-lg m-4">
+      <div className="max-w-sm rounded overflow-hidden shadow-lg m-4 animate-slide-in">
         <img className="w-full" src={pfp} alt="Egor" />
         <div className="px-6 py-4">
           <div className="card-header flex items-center justify-between">
@@ -23,7 +23,7 @@ const App = () => {
               </a>
             </div>
           </div>
-          <p className="text-gray-300 text-base mb-2">
+          <p className="text-gray-300 text-base mb-">
             🚀 Software Engineer Intern at{' '}
             <a
               href="https://www.linkedin.com/company/bay-valley-tech/mycompany/"
